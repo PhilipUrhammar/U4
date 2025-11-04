@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+}
+img {
+    width: 50px;
+}
+.flex-layout {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.primary-navigation {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.top {
+    background-color: rgb(255, 92, 250);
+
+}
+article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 70%;
+    margin-inline: auto;
+    
+}
+.main-title {
+    color: white;
+}
+h1 {
+    display: flex;
+    text-align: center;
+    grid-column: 2;
+}
+.grid-col-2 {
+    display: flex
+}
+.flexbox {
+    width: 100px;
+}
